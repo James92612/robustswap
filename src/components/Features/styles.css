@@ -1,0 +1,30 @@
+.dchart {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+.dchart-innertext-label {
+  display: none;
+}
+
+.dchart-legend-item {
+  display: none;
+}
+
+.dchart-innertext {
+  display: none;
+}
+
+@media(max-width: 600px) {
+  .dchart {
+    width: 100% !important;
+  }
+}
+.modal{
+  animation-name: ani;
+  animation-duration: 1s;
+}
+@keyframes ani {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
